@@ -46,7 +46,14 @@ export const hightlightsSlides: { id: number, textLists: string[], video: string
     },
 ];
 
-export const models: { id: number, title: string, color: string[], img: string }[] = [
+export interface ModelViewState {
+    id: number;
+    title: string;
+    color: string[];
+    img: string;
+}
+
+export const models: ModelViewState[] = [
     {
         id: 1,
         title: "iPhone 15 Pro in Natural Titanium",

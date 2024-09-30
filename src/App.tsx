@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import Highlights from "./components/Highlights.tsx";
+import Model from "./components/Model.tsx";
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
             <Navbar/>
             <Hero/>
             <Highlights/>
+            <Model />
         </main>
     )
 }
