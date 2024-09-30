@@ -29,9 +29,9 @@ interface ScrollProps {
 
 
 export const animateWithGsap = (
-    target: string, // Can be a string, Element, or an array of elements
+    target: any, // Can be a string, Element, or an array of elements
     animationProps: AnimationProps,
-    scrollProps?: ScrollProps // Optional scroll properties
+    scrollProps?: ScrollProps
 ): void => {
     gsap.to(target, {
         ...animationProps,
